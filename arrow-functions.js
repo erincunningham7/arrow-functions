@@ -35,3 +35,10 @@ const sayHello = () => console.log('hello')
 sayHello();
 
 // Returning Multiple Lines
+const returnMultipleLines = () => {
+    `<p>
+    This is a multiline string!
+    </p>
+    `
+}
+console.log(returnMultipleLines());
